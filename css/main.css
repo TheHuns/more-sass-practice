@@ -21,3 +21,20 @@ header {
         color: #fff; }
         header ul li a:hover {
           color: #9eb43d; }
+
+.showcase {
+  height: 85vh;
+  width: 100%;
+  position: relative; }
+  .showcase .bg-img {
+    background: url(../img/showcase.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%; }
+  .showcase .showcase-text {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    z-index: 2;
+    color: #fff;
+    width: 40%; }

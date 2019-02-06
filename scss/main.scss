@@ -31,3 +31,25 @@ header {
     }
   }
 }
+
+.showcase {
+  height: 85vh;
+  width: 100%;
+  position: relative;
+
+  .bg-img {
+    background: url(../img/showcase.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .showcase-text {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    z-index: 2;
+    color: #fff;
+    width: 40%;
+  }
+}
