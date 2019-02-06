@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Proza Libre", sans-serif;
 }
 
 header {
@@ -13,9 +14,20 @@ header {
     width: 40%;
     justify-self: flex-end;
     margin-left: auto;
+    list-style: none;
 
     li {
       padding: 1rem;
+
+      a {
+        text-decoration: none;
+        font-weight: 700;
+        color: #fff;
+
+        &:hover {
+          color: rgb(158, 180, 61);
+        }
+      }
     }
   }
 }
